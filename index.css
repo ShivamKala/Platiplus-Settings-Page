@@ -84,7 +84,7 @@ Global Styles
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border:1px solid blue;
+  /* border:1px solid blue; */
 }
 body {
   font-family: var(--ff-secondary);
@@ -186,17 +186,18 @@ p {
 }
 
 .section-center {
-  width: 90vw;
+  width: 88vw;
   margin: 0 auto;
   max-width: 1170px;
+  /* border: 1px solid red; */
 }
 
 .section-title{
   text-align: left;
   margin-bottom: 2rem;
-  max-width: 1170px;
-  width:90vw;
-  padding-left: 2rem;
+  /* max-width: 1170px;
+  width:90vw; */
+  
 }
 
 .section-title span{
@@ -380,8 +381,14 @@ small,
   }
 
   .accounts-page,.notifications-page,.data-page,.item-page,.password-page,.integrations-page{
-    padding: 3rem 0.5rem;
+    padding: 3rem 0.4rem;
     
+  }
+
+  .accounts-page h3{
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+  
   }
 }
 
@@ -489,6 +496,14 @@ hr{
   margin-top: 0.3rem;
 }
 
+@media screen and (max-width:768px){
+  .row-1{
+   display: grid;
+   grid-template-columns: 1fr;
+   place-items: center;
+  }
+}
+
 /* row-2 and row-3 */
 
 .row-2,.row-3{
@@ -513,6 +528,8 @@ hr{
   .row-2,.row-3{
     grid-template-columns: 1fr;
   }
+
+
 }
 
 
@@ -540,6 +557,20 @@ hr{
   justify-content: space-between;
 }
 
+.upload-btn{
+  display: inline-block;
+  width:150px;
+}
+
+@media screen and (max-width:768px){
+  .small-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+
+}
+
 /* delete account */
 
 .delete-account{
@@ -557,9 +588,6 @@ hr{
 
   .section-title{
     text-align: center;
-    margin-bottom: 2rem;
-    max-width: 1170px;
-    width:90vw;
   }
 
   .center{
