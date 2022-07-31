@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platiplus||Settings</title>
+    <link rel="stylesheet" href="./index.css">
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.1-web/css/all.min.css"
+    />
+</head>
+<body>
+    <section class="section settings-page">
+      <div class="section-title section-center">
+        <h2>Settings</h2>
+        <div class="underline center"></div>
+      </div>
+
+      <div class="section-center settings-center">
+        <article class="aside">
+          <ul class="nav-links">
+            <li><a class="nav-link active" id="nv-account" >Accounts</a></li>
+            <li><a class="nav-link" id="nv-notification"  >Notifications</a></li>
+            <li><a class="nav-link" id="nv-password" >Password</a></li>
+            <li><a class="nav-link" id="nv-integration" >Integrations</a></li>
+            <li><a class="nav-link" id="nv-data" >DataExport</a></li>
+            <li><a class="nav-link" id="nv-item" >Item</a></li>
+          </ul>
+        </article>
+         <div>
+        <article class="accounts-page  " id="accounts">
+          <h3>Account</h3>
+          <!-- row-1 -->
+          <div class="row-1">
+            <article class="img-section">
+              <h4>Miley Cyrus</h4>
+              <div class="img-container">
+              <img src="./images/person-1_rfzshl.jpg"  class="img-photo" alt="">
+            </div>
+            </article>
+            <article class="buttons">
+              <div class="file-upload">
+                <input class="file-upload__input" type="file" name="myFile[]" id="myFile" multiple>
+                <button class="file-upload__button btn" type="button">Upload</button>
+                <span class="file-upload__label"></span>
+              </div>
+              <button type="button" class="btn remove-btn">Remove</button>
+            </article>
+          </div>
+          <hr>
+          <!-- end of row-1 -->
+             <!-- row-2 -->
+             <div class="row-2">
+              <article class="first">
+                <label for="first-name" class="form-label custom-label" >First Name</label>
+                <input type="text" class="form-input" id="text" placeholder="Colt">
+              </article>
+              <article class="second">
+                <label for="last-name" class="form-label custom-label" >last Name</label>
+                <input type="text" class="form-input" id="text" placeholder="Steele">
+              </article>
+            </div>
+            <hr>
+            <!-- end of row-2 -->
+             <!-- row-3 -->
+             <div class="row-3">
+              <article class="first">
+                <label for="mail" class="form-label custom-label" >Email Address</label>
+                <input type="email" class="form-input" id="email" name="email" placeholder="Coltsteele@hotmail.com">
+              </article>
+              <article class="second">
+                <label for="mobile" class="form-label custom-label" >Mobile</label>
+                <input type="text" class="form-input" id="text" placeholder="+31 612 34 56 78">
+              </article>
+            </div>
+            <hr>
+            <!-- end of row-4 -->
+            <div class="row-4">
+              <article class="google-connect">
+                <label for="googleconnect" class="form-label custom-label" >Linked Accounts</label>
+                <p>We use this to let you sign in and populate your profile</p>
+                <div class="small-container">
+                <div class="small-grid">
+                  <div class="img-container-grid">
+                    <img src="./images/google-logo-png-google-icon-logo-png-transparent-svg-vector-bie-supply-14.png" alt="">
+                  </div>
+                  <p>Sign in with Google</p>
+                </div>
+                <button type="button" class="btn upload-btn"> Connect</button>
+              </div>
+              </article>
+            <hr>
+            <!-- end of row-4 -->
+            <!-- end of row-4 -->
+            <div class="row-4">
+              <article class="delete-account">
+                <div class="delete-container">
+                <label for="googleconnect" class="form-label custom-label" >Delete account</label>
+                <p>By deleting your account you will lose all you data </p>
+                </div>
+                <label for="googleconnect" class="form-label custom-label" >Deleting account...</label>
+              </article>
+            <hr>
+            <!-- end of row-4 -->
+            <div class="m-right">
+            <button type="button" class="btn save-changes-btn">Save Changes</button>
+          </div>
+
+        </article>
+
+        <article class="notifications-page hide " id="notifications">
+          <h3>Notifications</h3>
+          <!-- row -->
+          <!-- row -->
+        </article>
+        <article class="password-page hide " id="password">
+          <h3>Password</h3>
+          <!-- row -->
+          <!-- row -->
+        </article>
+        <article class="integrations-page hide" id="integrations">
+          <h3>Integrations</h3>
+          <!-- row -->
+          <!-- row -->
+        </article>
+        <article class="data-page hide " id="data">
+          <h3>Data-Export</h3>
+          <!-- row -->
+          <!-- row -->
+        </article>
+        <article class="item-page hide" id="item">
+          <h3>Item</h3>
+          <!-- row -->
+          <!-- row -->
+        </article>
+      </div>
+      </div>
+    </section>
+    <script src="./js/app.js"></script>
+</body>
+</html>
+
