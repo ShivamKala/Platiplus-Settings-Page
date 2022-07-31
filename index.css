@@ -84,7 +84,7 @@ Global Styles
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border:1px solid blue; */
+  border:1px solid blue;
 }
 body {
   font-family: var(--ff-secondary);
@@ -375,6 +375,13 @@ small,
 
   .nav-link{
     text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .accounts-page,.notifications-page,.data-page,.item-page,.password-page,.integrations-page{
+    padding: 3rem 0.5rem;
+    
   }
 }
 
